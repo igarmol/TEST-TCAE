@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aplicación de Test</h1>
+        </header>
+        <main>
+            <div class="controls">
+                <label for="testSelector">Selecciona un test:</label>
+                <select id="testSelector">
+                    <option value="test1.json">Test 1</option>
+                    <option value="test2.json">Test 2</option>
+                    <option value="test3.json">Test 3</option>
+                    <option value="test4.json">Test 4</option>
+                    <option value="test5.json">Test 5</option>
+                    <option value="test6.json">Test 6</option>
+                    <option value="test7.json">Test 7</option>
+                    <option value="test8.json">Test 8</option>
+                    <option value="test9.json">Test 9</option>
+                    <option value="test10.json">Test 10</option>
+                    <option value="test11.json">Test 11</option>
+                    <option value="test12.json">Test 12</option>
+                    <option value="test13.json">Test 13</option>
+                    <option value="test14.json">Test 14</option>
+                    <option value="test15.json">Test 15</option>
+                    <option value="test16.json">Test 16</option>
+                    <option value="test17.json">Test 17</option>
+                    <option value="test18.json">Test 18</option>
+                    <option value="test19.json">Test 19</option>
+                    <option value="test20.json">Test 20</option>
+                    <option value="test21.json">Test 21</option>
+                    <option value="test22.json">Test 22</option>
+                    <option value="test23.json">Test 23</option>
+                    <option value="test24.json">Test 24</option>
+                    <option value="test25.json">Test 25</option>
+                    <option value="test26.json">Test 26</option>
+                </select>
+                <button id="loadTestButton">Cargar Test</button>
+                <button id="viewHistoryButton">Ver Historial</button>
+                <button id="clearHistoryButton">Borrar Historial</button> <!-- Nuevo botón -->
+                            
+            </div>
+            <div id="test-container" class="test-container"></div>
+            <div class="chart-container">
+                <canvas id="resultsChart" class="results-chart"></canvas>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
